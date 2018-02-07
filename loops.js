@@ -23,6 +23,7 @@ function maybeTrue() {
 
 function doWhileLoop (array) {
   do {
-    return array.pop();
+    array.pop();
   } while(array.length > 0 && maybeTrue());
 }
+
